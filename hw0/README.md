@@ -12,22 +12,19 @@ Git is a free and open source  version  control  software  package.  We  will  b
   
 Once you have a EECS inst account and a Github account  follow the  instructions  in  the  following  link.  Remember  to  only enter your three letter account name  ( i.e., what  comes  after the cs186-): https://registration-sp18.herokuapp.com/.  
   
-To confirm that your github accounts have been properly set up, first login to github. You should be able to visit https://github.com/berkeley-cs186/<last_three_letters_inst_account>  ( e.g.,  
-https://github.com/berkeley-cs186/xyz) . Do not initialize the repository through github! This repository is owned  by  the  
-organization  berkeley-cs186,  but  you  will  have write  access  to  it.   
+To confirm that your github accounts have been properly set up, first login to github. You should be able to visit https://github.com/berkeley-cs186/<last_three_letters_inst_account>  ( e.g., https://github.com/berkeley-cs186/xyz) . Do not initialize the repository through github! This repository is owned by the organization  berkeley-cs186,  but  you  will  have write  access  to  it.   
   
 This is a good checkpoint--please let us know on Piazza ASAP if there are any problems here.  
 
 ## Setting  up  the  course  virtual  machine  
 
-VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use.  Download and install VirtualBox from:  https://www.virtualbox.org/wiki/Downloads.  The  virtualbox  website  has  installation instructions  for Windows, Macos, and Linux  
+VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use.  Download and install VirtualBox from:  https://www.virtualbox.org/wiki/Downloads.  The  virtualbox  website  has  installation instructions  for Windows, Macos, and Linux.  
   
 Then, download the course VM from the course Google Drive: https://drive.google.com/drive/u/0/folders/1daZEGfIz02w7nExOHvmIEtRgDcjAFBrT 
   
 Open VirtualBox and click **File > Import Appliance**. Click on the folder icon and select  the path of the file that you just downloaded.  The  initialization  should  take  about  5-10 mins.   
   
-Once the VM is imported, double click on it to power it on. You should be greeted with a terminal and prompted to log in.  
-The  username  and  password  are  both  **vagrant**.  
+Once the VM is imported, double click on it to power it on. You should be greeted with a terminal and prompted to log in. The  username  and  password  are  both  **vagrant**.  
 
 Next, click  on the terminal icon at the bottom of the desktop.  You will now load your project repository. First, configure your  git  account  by  copying  the  following  commands  into  the  terminal.  Replace <your_email>  and <your_name> with your  email  and  your  name.  
 
