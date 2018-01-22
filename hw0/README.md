@@ -33,6 +33,8 @@ $ git config --global user.email "<your_email>"
 $ git config --global user.name "<your_name>"
 ```
 
+**If you have done the following before and are setting up on a new machine (or again on the same machine), DO NOT RUN THE FOLLOWING AGAIN.** Doing so will reset your repository on GitHub to this course repo and you will delete any code you have on GitHub (including the stuff to be graded). Skip the rest of this section and jump straight to *First Commit* to clone your repo.
+
 Then, you will  clone a “bare” repository in your home directory:  
   
 ```  
@@ -46,7 +48,7 @@ Enter the “bare” repository:
 $ cd course.git  
 ```
   
-Mirror this repository to yours (last three letters):  
+Mirror this repository to yours (last three letters). Again, do ***not*** run this more than once.
   
 ```  
 $ git push --mirror https://github.com/berkeley-cs186/<your_inst_account>.git 	  
@@ -118,4 +120,4 @@ The  virtual  machine  is running Ubuntu 14.04 with the Xfce  desktop  environme
 Vim is a lightweight text editor  built  to  make creating and  changing  any  kind of text  very  efficient.  It  is  included  as  
 "vi"  with most UNIX systems and with Apple  OS  X.  For  a  tutorial,  visit: http://www.openvim.com/  
   
-  
+
