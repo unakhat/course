@@ -169,11 +169,11 @@ You may need to reference SQL documentation for concepts not covered in class: [
 
        Order the results by `lslg` descending, and break ties by `playerid` (ascending order).
 
-		*NOTE*: Make sure that you still only include players with more than 50 at-bats in the season.
+		*NOTE*: Make sure that you only include players with more than 50 at-bats across their lifetime.
 
     3. Find the `namefirst`, `namelast` and Lifetime Slugging Percentage (`lslg`) of batters whose lifetime slugging percentage is higher than that of San Francisco favorite Willie Mays. You may include Willie Mays' playerid in your query (`mayswi01`), but you *may not* include his slugging percentage -- you should calculate that as part of the query. (Test your query by replacing `mayswi01` with the playerid of another player -- it should work for that player as well! We may do the same in the autograder.)
 
-		*NOTE*: Make sure that you still only include players with more than 50 at-bats in the season.
+		*NOTE*: Make sure that you still only include players with more than 50 at-bats across their lifetime.
 
     *Just for fun*: For those of you who are baseball buffs, variants of the above queries can be used to find other more detailed SaberMetrics, like [Runs Created](https://en.wikipedia.org/wiki/Runs_created) or [Value Over Replacement Player](https://en.wikipedia.org/wiki/Value_over_replacement_player). Wikipedia has a nice page on [baseball statistics](https://en.wikipedia.org/wiki/Baseball_statistics); most of these can be computed fairly directly in SQL.
 
